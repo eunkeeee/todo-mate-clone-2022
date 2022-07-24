@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ToDo Mate</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column"><div id="clock"></div></div>
+      <div class="status-bar__column"></div>
+      <div class="status-bar__column">
+        <i class="fa-solid fa-signal"></i>
+        <span>LTE</span>
+        <i class="fa-solid fa-battery-three-quarters"></i>
+      </div>
+    </div>
+
+    <div class="main-screen">
+      <!-- Friends -->
+      <div class="region__header main__header">
+        <div class="region__header--icon">
+          <i class="fa-solid fa-magnifying-glass-plus"></i>
+        </div>
+        <div class="region__header--icon">
+          <i class="fa-solid fa-heart"></i>
+        </div>
+        <div class="region__header--icon"><i class="fa-solid fa-bars"></i></div>
+      </div>
+
+      <div class="main__friends">
+        <div class="profile__small">
+          <div class="profile__small--img">
+            <img class="profile__small--img" src="profile-img/깃짱.jpg" />
+          </div>
+          <div class="profile__small--name">깃짱</div>
+        </div>
+
+        <div class="profile__small">
+          <div class="profile__small--img">
+            <img class="profile__small--img" src="profile-img/이지훈.jpg" />
+          </div>
+          <div class="profile__small--name">지훈</div>
+        </div>
+      </div>
+
+      <!-- User Profile -->
+      <div class="profile__big">
+        <div class="profile__big--img">
+          <img src="profile-img/깃짱.jpg" class="profile__big--img" />
+        </div>
+        <div class="profile__big--contents">
+          <h1 id="username">깃짱</h1>
+          <h3 id="userintro">내 털은 깃털!</h3>
+        </div>
+      </div>
+
+      <!-- Calendar -->
+
+      <!-- Todo List -->
+      <div class="todo-lists">
+        <ul class="todo-form">
+          <div class="todo-form__goal">
+            <div class="todo-form__goal--name">그림앱만들기 (바닐라JS)</div>
+            <!-- 여기 text 가운데로 맞추기 -->
+            <div class="todo-form__plus">+</div>
+          </div>
+        </ul>
+      </div>
+    </div>
+
+    <!-- icons -->
+    <script
+      src="https://kit.fontawesome.com/6376ec8438.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- js -->
+    <script src="app.js"></script>
+  </body>
+</html>

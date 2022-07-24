@@ -1,0 +1,22 @@
+.todo-form__goal {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  height: 30px;
+  padding: 0px 8px;
+  background-color: var(--gray-background);
+  border-radius: 5px;
+}
+.todo-form__goal--name {
+  color: var(--yellow);
+  font-weight: 600;
+  font-size: 12px;
+}
+.todo-form__plus {
+  color: var(--black);
+  text-align: center;
+  background-color: white;
+  height: 16px;
+  width: 16px;
+  border-radius: 50%;
+}

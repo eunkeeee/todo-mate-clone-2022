@@ -1,0 +1,14 @@
+@import "reset.css";
+@import "variables.css";
+
+/* components */
+@import "components/status-bar.css";
+@import "components/header.css";
+@import "components/profile.css";
+@import "components/todo-list.css";
+
+/* screens */
+@import "screens/main.css";
+.main-screen {
+  padding: 0px 20px;
+}

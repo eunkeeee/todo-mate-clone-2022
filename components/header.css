@@ -1,0 +1,10 @@
+.region__header {
+  width: 100%;
+  height: 60px;
+}
+.main__header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 15px;
+}
